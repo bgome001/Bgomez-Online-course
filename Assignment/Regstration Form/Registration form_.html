@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <form action="process.php" method="post">
+  <head>
+     <html lang="en">
+     <meta charset="utf-8">
+     <Title> My Registration Form</Title>
+     <meta name="description" content="Registration">
+  </head>
+  <body>
+      <h1> My Registration Form</h1>
+      <h2> Please register:</h2>
+      <ul>
+        <ul><label for="First_ Name"> First Name:</label>
+        <input type="text" id="First_Name" name="First_Name"></ul>
+        <br>
+
+        <ul><label for="Last_ Name"> Last Name:</label>
+        <input type="text" id="Last_Name" name="Last_Name"></ul>
+        <br>
+
+        <ul><label for="Email"> Email:</label>
+        <input type="text" id="Email"name="Email"></ul>
+        <br>
+      </ul>
+
+        <p> Please select your gender:</p>
+        <label for="Female"> Female:</label>
+        <input type="radio" name="Gender" value= "Female">
+
+        <label for="Male">Male:</label>
+        <input type="radio" name="Gender" value= "Male">
+
+        <label for="Other">Other:</label>
+        <input type="radio" name="Gender" value= "Other">
+
+        <p><label for="Birthdate">Birthdate:</label>
+        <input type="Birthday" id="Birthday" name="Birthday"></p>
+
+        <p> Please generate password:</p>
+        <label for="Password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <p> Please confirm password:</p>
+        <label for="pw_Confirmation">Password Confirmation:</label>
+        <input type="password" id="pw_Confirm" name="password_confirmation">
+
+        <p> Please write a brief description about your self:</p>
+        <textarea name="description"></textarea>
+
+        <p>Click to Submit:</p>
+        <input type="Submit" value="Click here to submit">
+    </form>
+  </body>
+</html>
